@@ -1,0 +1,8 @@
+This repository contains the R script developed for a university assignment based on the ECB-SSM Hackathon dataset “Beat the Heat” (2023). The task involves analyzing a yearly panel dataset that combines economic and climate data for NUTS3 regions across Europe. The goal was to clean the data, produce descriptive summaries, and create visual insights into the relationship between climate patterns and economic performance at the regional level.
+
+The first part of the task focused on data structure and filtering. The dataset was examined to describe its format and unit of observation. Regions with missing GDP values for all years were excluded, and key statistics such as the number of regions before and after filtering, GDP extremes by year, the highest and lowest GDP values in 2020, and the region-year with the highest GDP growth rate were reported.
+
+In the second part, three Swedish NUTS3 regions were selected for a more focused analysis. The script calculates the range of several climate variables and provides descriptive statistics for two economic indicators: gross value added in sectors A and C. The assignment concludes with two time series visualizations—one showing changes in the SPI 12-Month Precipitation Index and another tracking the evolution of gross value added. Both plots are accompanied by short written interpretations highlighting regional differences and economic trends.
+
+The script was written in R using dplyr for data manipulation and ggplot2 for visualization, and includes a custom mode function to complement R's statistical toolkit. All results are reproducible from raw data, and the code is fully commented to align with the original assignment instructions.
+
